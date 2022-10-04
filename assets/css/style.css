@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 5rem;
+    width: 1000px;
+}
+
+fieldset {
+    width: 100%;
+}
+
+fieldset legend {
+    font-size: 3rem;
+    padding-left: 3rem;
+}
+
+table {
+    font-size: 2rem;
+    text-align: left;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+table tr th {
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+}
+
+table tr th:nth-of-type(1) {
+    width: 20rem;
+}
+
+p {
+    display: inline-block;
+}
